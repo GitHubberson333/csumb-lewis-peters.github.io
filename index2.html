@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<title>Lab2</title>
+  <style>
+    h1, p {
+  color: indigo;
+  text-align: right;
+}
+
+fieldset {
+  background-color: gold;
+  padding: 80px;
+  border: solid indigo 10px;
+  margin: auto 40px;
+  font-family: Monospace;
+}
+
+legend {
+  color: indigo;
+  border: solid yellow 5px;
+  height: 20px
+}
+
+select {
+  color: purple;
+  border: solid yellow 5px;
+}
+
+
+body {
+  background-image: url("https://www.diabetes.co.uk/wp-content/uploads/2019/01/iStock-467652436.jpg")
+}
+
+label {
+  color: purple;
+}
+
+h6, a {
+  text-align: center;
+}
+
+img {
+  border: solid indigo 5px;
+}
+   </style>
+   </head>
+ 
+<body>
+	<h1 id="title">Nutritional Survey</h1>
+	<p id="description">Explore your tastebuds' preferences to diet types</p>
+<form id="survey-form">
+<fieldset>
+  <legend><strong>General Info</strong></legend>
+  <input type="text" id="name" placeholder="Name here!" required><br>
+  <label id="name-label">Name</label><br>
+
+  <input type="email" id="email" placeholder="Email here!" required><br>
+  <label id="email-label">Email</label><br>
+
+  <input type="number" id="number" placeholder="Age" min="1" max="99" required><br>
+  <label id="number-label">Age</label><br><br>
+
+  <legend>Which option <em>best</em> describes your eating style?</legend>
+  <label for="food">Make a selection:</label>
+    <select id="dropdown">
+      <option value="unknown">Unknown</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="vegan">Vegan</option>
+      <option value="pescatarian">Pescatarian</option>
+      <option value="carnivorous">Carnivorous</option>
+    </select><br><br>
+  
+  <fieldset>Which food do you prefer?<br>
+     <input type="radio" name="f1" value="Chicken">Chicken: <strong>White</strong> and stringy<br>
+     <input type="radio" name="f1" value="Chicken">Beef: <strong>Savory</strong>, <em>juicy</em>, tender and <em>slightly</em> sweet<br>
+    <img src="https://assets.epicurious.com/photos/5732526f1877f76a0e20831c/1:1/w_2560%2Cc_limit/EP_05102016_PeruvianStyleRoastChicken_recipe_.jpg" width="150" height="150">
+    <img src="https://www.cookingclassy.com/wp-content/uploads/2019/01/honey-garlic-steak-bites-4-500x375.jpg" width="150" height="150">
+    <br>
+    <input type="radio" name="f1" value="Salmon">Sushi: Japanese cuisine, typically served cold<br>
+    <input type="radio" name="f1" value="Salmon">Salmon: The <strong>textures</strong> are <em>slightly</em> different to meats, orangey-pink flesh <br>
+    <img src="https://ichisushi.com/wp-content/uploads/2022/04/Best-Salmon-Sushi-Recipes.jpg" width="150" height="150">
+    <img src="https://www.skinnytaste.com/wp-content/uploads/2018/12/Baked-Salmon-1.jpg" width="150" height="150">
+    <br>
+    <input type="radio" name="f1" value="Salad">Salad: Rabbit food! Packed with nutrients <br>
+    <input type="radio" name="f1" value="Salad">Pasta Salad: I like <strong>variety</strong> in my salads<br>
+    <img src="https://cdn.loveandlemons.com/wp-content/uploads/2021/04/green-salad.jpg" width="315" height="100">
+    <br>
+    <input type="radio" name="f1" value="Apple">Berries: A splash of <em>sweet</em> and <strong>sour</strong> <br>
+    <input type="radio" name="f1" value="Apple">Citruses: Pulpy fruit covered in leathery peels <br>
+    <img src="https://www.dictionary.com/e/wp-content/uploads/2018/09/berries_1000x700.jpg" width="150" height="150">
+    <img src="https://facts.net/wp-content/uploads/2022/08/citrus-fruits.jpeg" width="150" height="150">
+    <br>
+    <input type="radio" name="f1" value="Crossiant">Muffins: Great compliments to coffee, in the morning!<br>
+    <input type="radio" name="f1" value="Crossiant">Waffles: A true champion of the breakfast pantry <br>
+    <img src="https://bakerbynature.com/wp-content/uploads/2011/05/Blueberry-Muffins-1-of-1.jpg" width="100" height="100">
+    <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2020/03/Bread-Recipe-5-2.jpg" width="100" height="100">
+    <img src="https://blissfullylowcarb.com/wp-content/uploads/2019/11/waffles-cooked-on-a-plate.jpg" width="100" height="100">
+    <br> 
+    <input type="radio" name="f1" value="worldwide">Chinese Cuisine! <br>
+    <input type="radio" name="f1" value="worldwide">Mexican Cuisine! <br>
+    <img src="https://www.rinag.com/wp-content/uploads/2020/02/Asian-Street-Kitchen-Festival-2019-min-1024x501.jpg" width="150" height="100">
+    <img src="https://theplanetd.com/images/Best-Mexican-Dishes.jpg" width="150" height="100">
+    <br>
+    <input type="radio" name="f1" value="Processed">Top Ramen<br>
+    <input type="radio" name="f1" value="Salmon">Kraft Mac n Cheese<br>
+    <img src="https://m.media-amazon.com/images/I/91jEtKoGGUL._AC_UF894,1000_QL80_.jpg" width="100" height="100">
+    <img src="https://bakeitwithlove.com/wp-content/uploads/2023/01/how-to-make-kraft-mac-cheese-better-sq.jpg" width="100" height="100">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/top-ramen-1562598832.jpg" width="100" height="100">
+  </fieldset><br>
+  
+  <fieldset>What time of day do you <em>most enjoy</em> eating?<br>
+    <label for="time"><strong>I prefer to eat in the...</strong></label>
+    <select name="time" id="time">
+      <option value="morning">Morning</option>
+      <option value="mid-day">Mid Day</option>
+      <option value="nighttime">Nighttime</option>
+      <option value="whenever">Whenever</option>
+    </select>
+    </fieldset><br>
+  
+    <fieldset>Choose your preferable food groups. Check all that apply...<br>
+      <label><input type="checkbox" name="gran" value="grains"><strong>Grains<br></label>
+        <img src="https://healthy-kids.com.au/wp-content/uploads/2013/12/ComplexCarbohydrateFamily.jpg" width="300" height="150">
+      <br>
+      <label><input type="checkbox" name="vegg" value="veggies">Veggies<br></label>
+        <img src="https://www.scripps.org/sparkle-assets/images/fruits_and_vegetables_1200x750-14d2361da5b94c82e03246168212ff6b.jpg" width="300" height="150">
+      <br>
+      <label><input type="checkbox" name="frui" value="fruits">Fruits<br></label>
+        <img src="https://www.unlockfood.ca/EatRightOntario/media/Website-images-resized/How-to-store-fruit-to-keep-it-fresh-resized.jpg" width="300" height="150">
+      <br>
+      <label><input type="checkbox" name="dairy" value="dairy">Dairy<br></label>
+        <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/9685/iStock-544807136.jpg" width="300" height="150">
+      <br>
+      <label><input type="checkbox" name="prot" value="protein">Protein</strong><br></label>
+        <img src="https://m5.paperblog.com/i/29/292577/choosing-from-the-protein-foods-group-L-D7Fqx6.jpeg" width="300" height="150">
+      <br>
+      <label><input type="checkbox" name="oils" value="lipids">Lipids<br></label>
+        <img src="https://ychef.files.bbci.co.uk/976x549/p01fgmc4.jpg" width="300" height="150">
+      <br>
+      <label><input type="checkbox" name="swts" value="sweets">Sweets<br></label>
+        <img src="https://www.mashed.com/img/gallery/new-study-reveals-why-your-brain-chooses-junk-food-over-more-nutritious-options/intro-1625764655.jpg" width="300" height="150">
+      <br>
+    </fieldset><br>
+  
+  <fieldset>Are there any other food related comments you have ? Favorite cravings ?
+
+    <label for="w3review">Review of Foods</label>
+
+     <textarea id="w3review" name="w3review" rows="4" cols="50">
+Apple, Broccoli, Corn, Dairy, Eggplant, Fish, Grains, Habanero, IceCream, Jelly, Kale, Lamb, Mango, Nuts, Olive, Pineapple, Quiche, Radish, Strawberry, Turkey, Ube, Veggies, Watermelon, Xacuti, Yogurt, Zucchini 
+</textarea>
+  </fieldset>
+  
+</fieldset>
+
+
+  
+  <footer>
+    <h6>Author: Peters, Lewis
+    <a href="https://simpsons.fandom.com/wiki/Ha_Ha!">Food Options!>
+      </h6>
+  </footer>
+  
+  <button type="submit" id="submit">Submit</button>
+  
+  </form>
+</body>
+</html>
