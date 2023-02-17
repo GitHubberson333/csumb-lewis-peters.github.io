@@ -1,0 +1,31 @@
+h1 {
+	background-color: blue;
+	border: solid red 10px;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 0 auto;
+	font-size: 10vw;
+
+}
+
+img {
+	border-radius: 20px;
+	border: solid blue 5px;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1551866442-64e75e911c23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto");
+	text-align: center;
+}
+
+div {
+	background-color: rgba(255, 255, 255, .7);
+
+}
+
+
