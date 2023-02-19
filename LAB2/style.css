@@ -1,0 +1,138 @@
+       a {
+        display: block;
+        color: gold;
+        background-color: green;
+        border: solid black 10px;
+        padding-left: 70px;
+        padding-right: 70px;
+        text-align: center;
+       }
+
+       body {
+        background-image: url("https://cdn.pixabay.com/photo/2015/03/02/15/05/pattern-656045_960_720.png");
+       }
+
+       button {
+        display: block;
+        color: black;
+        background-color: gold;
+        font-family: Monospace;
+        border: groove green 10px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+       figcaption {
+        text-align: center;
+        font-family: "Sans-Serif", Tahoma;
+     }
+
+       footer {
+        color: yellow;
+        font-family: "Sans-Serif", Tahoma;
+        border: groove lime 10px;
+        background-color: black;
+        text-align: center;
+     }
+
+       h1, h3, h4, h5, h6 {
+        color: yellow;
+        background-color: black;
+        text-align: center;
+        font-family: Monospace;
+     }
+
+       h2 {
+        color: yellow;
+        background-color: black;
+        border: solid lime 10px;
+        text-align: center;
+        font-family: Monospace;
+       }
+
+       header {
+        margin: 0 auto;
+     }
+
+       img {
+        display: block;
+        border-radius: 20px;
+        margin-top: 200px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 2000px;
+     }
+
+       input {
+        display: block;
+        color: black;
+        background-color: bisque;
+        margin: auto;
+
+        
+     }
+
+       label {
+        display: block;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        
+     }
+
+       legend {
+        border: solid lime 10px;
+        background-color: black;
+        color: gold;
+        text-align: center;
+
+     }
+
+       li { 
+        color: lime;
+        background-color: green;
+        font-family: Monospace;
+        text-align: center;
+     }
+
+    
+
+        main {
+         background-color: gold;
+     }
+
+     #roaring {
+      margin: 20px 10px 10px 200px;
+      width: 900px;
+      height: 500px;
+      border-radius: 200px;
+     }
+
+     #roaring2 {
+      margin: 20px 10px 10px 200px;
+      width: 900px;
+      height: 500px;
+      border-radius: 200px;
+     }
+
+     #roaring3 {
+      margin: -1030px 400px 470px 1600px;
+      width: 900px;
+      height: 500px;
+      border-radius: 200px;
+     }
+
+     #roaring4 {
+      margin: -450px 40px 0px 1600px;
+      width: 900px;
+      height: 500px;
+      border-radius: 200px;
+     }
+
+     #fname, #lname, #sname {
+      background-color: green;
+      border: dashed lime 5px;
+     }
+
+
+    
