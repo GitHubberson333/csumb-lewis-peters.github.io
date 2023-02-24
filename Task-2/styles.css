@@ -1,0 +1,79 @@
+img {
+  display: block;
+  max-width: 100%;
+  padding: 10px 10px;
+  background-color: darkgreen;
+  border-bottom-left-radius: 70px;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+  border-top-right-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#steelo {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 100px;
+}
+
+#cjfly {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 120px;
+  border-top-right-radius: 10px;
+}
+
+p, figcaption {
+  font-family:Monospace;
+  text-align: center;
+  font-family: courier, monospace;
+  color: gold;
+  font-style: oblique;
+}
+
+a {
+  display: block;
+	color: gold;
+  padding: 30px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+header {
+  display: block;
+  color: green;
+  background-color: orange;
+  font-family: courier, monospace;
+  font-style: oblique;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+body {
+	background-color: darkred;
+}
+
+h3 {
+	text-align: center;
+	font-size: 4vw;
+	font-family: courier, monospace;
+  color: green;
+	}
+
+ul {
+   color: gold;
+   font-family: courier, monospace;
+   font-style: oblique;
+   text-align: center;
+}
+
+#timeline {
+	color: black;
+	border: solid darkgreen 15px;
+	padding: 10px 100px;
+}
+
+
+
