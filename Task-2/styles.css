@@ -62,11 +62,18 @@ h3 {
   color: green;
 	}
 
-ul {
+ul, li {
    color: gold;
    font-family: courier, monospace;
    font-style: oblique;
    text-align: center;
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+  font-family: Monospace;
+  font-style: oblique;
 }
 
 #timeline {
