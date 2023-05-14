@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d79678;
+}
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#navbar li {
+  display: inline-block;
+}
+
+#navbar li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+#navbar li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+ul#navbar li {
+    float:right;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-weight:bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+img {
+  height: 40%;
+  width: 40%;
+}
+
+body {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, #2b296c, #d79867);
+  font-family: monospace;
+}
+
+button {
+  color: midnightblue;
+  background-color: #d79876;
+  border: outset midnightblue 3px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+/*
+#d79678 - sandy orange
+#2b296c - midnight sky
+*/
+button:hover {
+  opacity: 0.5;
+}
+
+.divFlex {
+  display: flex;
+  justify-content: center;
+
+}
+
+.freqA {
+  border: dashed midnightblue 5px;
+  background-color: cyan;
+
+}
+
+.paid {
+  color: midnightblue;
+  background-color: #d79867;
+  border: dashed white;
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+/*h1, h3 {
+  color: chartreuse;
+  background-color: midnightblue;
+  border: outset cyan 3.5px;
+  font-size: 5.5vw;
+} */
+
+h1 {
+  color: #272264;
+  background-color: #d79867;
+  border: outset #272264 5px;
+}
+
+h3 {
+  color: #272264;
+  background-color: #d79867;
+  border: outset #272264 5px;
+}
+
+
+
+
+figure {
+  position: relative;
+  left: 0px;
+  text-align;
+}
+
+h4 {
+  color: white;
+  background-color: midnightblue;
+  border: inset #d79876 10px;
+}
+
+
+.freqAskedQ_s {
+  color: black;
+  font-size: 4vw;
+  border: outset midnightblue 15px;
+  background-image: linear-gradient(to bottom, #2b296c, #d79867);
+}
+
+.freqQs {
+  background-color: midnightblue;
+  height: 100px;
+}
+
+.nextRide {
+  color: black;
+  background-image: linear-gradient(to bottom, moccasin, #d79876);
+  display: flex;
+}
+
+.priceLabel:hover {
+  color: midnightblue;
+  font-size: 6vw;
+}
+
+.payMethod {
+  background-image: linear-gradient(#2b296c, midnightblue);
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 882px) {
+  .payMethod {
+    display: block;
+    color: turquoise;
+  }
+
+  .divFlex {
+    display: block;
+  }
+
+  .nextRide {
+    display: block;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .payMethod {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+  }
+}

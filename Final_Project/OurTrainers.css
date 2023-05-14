@@ -1,0 +1,234 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, #d79678, #2b296c);
+    margin: 20px;
+    padding: 20px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d79678;
+}
+
+ul#navbar li {
+    float: right;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #6f7279;
+    font-weight:bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+/* Styles for the navbar */
+.navbar {
+    background-color: #9ba0aa;
+    padding: 10px;
+}
+
+
+.navbar-toggler-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('img/bikebw1.jpg');
+    /* Replace with your own icon */
+    background-size: cover;
+}
+
+.collapse.navbar-collapse {
+    display: flexbox;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 10;
+    margin: 60;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.nav-link:hover {
+    color: #fefb00;
+    background-color: #e0e0e0;
+}
+
+.nav-item.active .nav-link {
+    font-weight: bold;
+}
+
+/* Optional: Add media queries for responsive behavior */
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .collapse.navbar-collapse {
+        display: block;
+    }
+
+    .nav-item {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+.logo-container {
+    margin-left: 0px;
+    max-width: 16em;
+}
+
+.logo-container {
+    padding: 15px;
+    border: 70px solid #2d2a73;
+}
+
+.logo-container img {
+    height: 150px;
+    /* or any desired height */
+}
+.gradient-text {
+  background: -webkit-linear-gradient(#d79678, #2b296c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px; /* Choose your desired font size */
+  font-weight: bold;
+}
+.card-container {
+  border: 1px solid #2d2d2d;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 1rem;
+}
+.card-body {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 0 0 0.2rem 0.2rem;
+}
+.btn
+h2 {
+    background-color: #272828;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.col-md-5 {
+  float: inline-start;
+  width: 50%;
+  box-sizing: border-box;
+}
+.btn {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #787c85;
+  cursor: pointer;
+}
+.trainer-container {
+  display: grid;
+  place-items: center;
+  border: 2px solid #9d9d9d;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 1rem;
+  background-color: #7c7f8b;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+        .footer {
+
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .contact-us,
+        .social-media {
+            flex-basis: 45%;
+            margin-bottom: 2px;
+        }
+
+        .contact-us h3,
+        .social-media h3 {
+            margin-bottom: 20px;
+        }
+.social-media h3 {
+  font-weight: bold;
+  font-style: italic;
+}
+        .social-media {
+            border: 10px solid #4f4f4f;
+            padding: 10px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .social-media img {
+            max-width: 60px;
+            max-height: 60px;
+        }
+
+        .logo-container-bottom {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        .logo-container-bottom img {
+            height: 2em;
+            /* or any desired height */
+        }
+
+        @media screen and (min-width: 768px) {
+            /* Media queries */
+
+        }
+
+        /* iPhone */
+        @media only screen and (max-device-width: 480px) {
+            /* Styles here */
+        }
+
+        /* Android */
+        @media only screen and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
+            /* Styles here */
+        }
+
+        /* Desktop */
+        @media only screen and (min-width: 1024px) {
+            /* Styles here */
+        }@media (max-width: 480px) {
+  img.social-media-image {
+    max-width: 10px;
+    max-height: 10px;
+  }
+}
